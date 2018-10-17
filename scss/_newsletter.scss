@@ -1,0 +1,21 @@
+/*Newsletter*/
+#newsletter {
+  padding: 15px;
+  color: set-text-color($primary-color);
+  background: $primary-color;
+
+  h1 {
+    float: left;
+  }
+
+  form {
+    float: right;
+    margin-top: 15px;
+  }
+
+  input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+  }
+}

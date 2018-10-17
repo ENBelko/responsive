@@ -1,0 +1,33 @@
+@import "config";
+@import "global";
+@import "header";
+@import "showcase";
+@import "newsletter";
+
+/*Boxes*/
+#boxes {
+  .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+.dimg {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: auto;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: set-text-color($secondary-color);
+  background-color: darken($secondary-color,5);
+  text-align: center;
+  border-top: $primary-color 3px solid;
+}
+
+

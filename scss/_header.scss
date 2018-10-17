@@ -1,0 +1,44 @@
+/*Header*/
+header {
+  background: $primary-color;
+  color: set-text-color($primary-color);
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: $secondary-color 3px solid;
+
+  .highlight, .current a {
+    @include highlight;
+  }
+
+  a {
+    color: set-text-color($primary-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+    &:hover {
+      color: #cccccc;
+      font-weight: bold;
+    }
+  }
+
+  li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+
+  #branding {
+    float: left;
+
+    h1 {
+      margin: 0;
+    }
+  }
+
+  nav {
+    float: right;
+    margin-top: 10px;
+  }
+
+}

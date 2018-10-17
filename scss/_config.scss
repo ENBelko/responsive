@@ -1,0 +1,16 @@
+$primary-color: #08194a;
+$secondary-color: #bfe800;
+$third-color: #ffffff;
+
+@mixin highlight {
+  color: $secondary-color;
+  font-weight: bold;
+}
+
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
